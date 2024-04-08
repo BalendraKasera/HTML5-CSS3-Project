@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: row;
+  height: 585px;
+  width: 100%;
+  font-family: m;
+}
+.left-container {
+  height: 585px;
+  width: 25%;
+  background-color: white;
+  box-sizing: border-box;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.left-top {
+  text-align: center;
+}
+.right-container {
+  display: flex;
+  flex-direction: row;
+  height: 585px;
+  width: 75%;
+  background-color: #00203fff;
+  justify-content: center;
+  align-items: center;
+}
+.right-container .right-p1 {
+  height: 40%;
+  margin: 0px 5%;
+  position: relative;
+}
+.right-container .right-p1 img {
+  height: 100%;
+  border-radius: 50%;
+}
+.right-text {
+  width: 30%;
+}
+#musk-copyright {
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  bottom: -20px;
+  left: 26%;
+}
+#B {
+  height: 50px;
+  width: 120px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+p {
+  color: white;
+  font-size: 1em;
+}
+.left-container {
+  height: 585px;
+  overflow-y: scroll;
+}
+.left-container .left-top {
+  height: 10%;
+}
+.left-container .left-bottom {
+  height: 90%;
+}
+
+.time-1 {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  margin-top: 70px;
+  position: relative;
+  padding-left: 40px;
+}
+.time-1 #circle-1 {
+  background-color: black;
+  height: 20px;
+  width: 9%;
+  border-radius: 50%;
+  border: 3px solid grey;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+.time-1 #son-1 {
+  width: 95%;
+  position: relative;
+}
+#son-1971 {
+  color: black;
+  margin: 0px;
+}
+.para-color {
+  color: black;
+}
+h1 {
+  left: 80px;
+}
+.left-container .line {
+  position: absolute;
+  top: -30px;
+  left: 15px;
+  width: 5px;
+  height: 2630px;
+  border: 2px solid black;
+  background-color: black;
+}
+.time-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 25px;
+  height: 25%;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
