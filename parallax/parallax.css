@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.parallax-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.first-para {
+  height: 450px;
+  line-height: 30px;
+  background-color: #cec624;
+}
+.first-para2 {
+  background-color: #c8c477;
+  line-height: 30px;
+}
+.first-para3 {
+  background-color: #0a7fd0;
+  line-height: 30px;
+}
+.first-para4 {
+  background-color: #61c7ca;
+  line-height: 30px;
+}
+.first-img {
+  background-image: url("radha\ rani.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second-img {
+  background-image: url("krishna.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-img {
+  background-image: url("mahadev.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth-img {
+  background-image: url("hanuman-ji.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  position: relative;
+  left: 500px;
+  padding-bottom: 16px;
+  padding-top: 5px;
+  font-size: 50px;
+}
